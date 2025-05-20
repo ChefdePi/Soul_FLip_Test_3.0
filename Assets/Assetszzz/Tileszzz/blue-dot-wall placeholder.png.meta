@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blue-dot-wall placeholder_0: -1260285251913323357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
