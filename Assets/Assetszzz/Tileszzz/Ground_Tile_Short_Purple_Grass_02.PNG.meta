@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9b912403b79f51d42a08fdfdadf3ec28
+guid: 22046faffa73ebd469a4f8cb925afa1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3963362938653113600
-    second: Altar_Yellow_Static_NoGlow_0
+      213: 4152766139588318131
+    second: Ground_Tile_Short_Purple_Grass_02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,14 +49,14 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.75}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -100,33 +100,37 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Altar_Yellow_Static_NoGlow_0
+      name: Ground_Tile_Short_Purple_Grass_02_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 16
-        height: 27
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00dfd5a0891b00730800000000000000
-      internalID: 3963362938653113600
+      spriteID: 3b39e693dc691a930800000000000000
+      internalID: 4152766139588318131
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
     customData: 
-    physicsShape: []
+    physicsShape:
+    - - {x: 0, y: 0}
+      - {x: 16, y: 8}
+      - {x: 0, y: 16}
+      - {x: -16, y: 8}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -135,7 +139,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Altar_Yellow_Static_NoGlow_0: 3963362938653113600
+      Ground_Tile_Short_Purple_Grass_02_0: 4152766139588318131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
