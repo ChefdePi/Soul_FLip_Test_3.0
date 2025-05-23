@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 60441f8e7561a8a4fae6f5abc56a0e84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1316930472018242653
+    second: Tileset Earth 32x32 1_0
+  - first:
+      213: -601868355284801605
+    second: Tileset Earth 32x32 1_1
+  - first:
+      213: -428996078613743719
+    second: Tileset Earth 32x32 1_2
+  - first:
+      213: -1966235146171081084
+    second: Tileset Earth 32x32 1_3
+  - first:
+      213: 4902696525039804690
+    second: Tileset Earth 32x32 1_4
+  - first:
+      213: -1737413694397119825
+    second: Tileset Earth 32x32 1_5
+  - first:
+      213: 760259845630176475
+    second: Tileset Earth 32x32 1_6
+  - first:
+      213: -5257900003219224739
+    second: Tileset Earth 32x32 1_7
+  - first:
+      213: 6145643897663453366
+    second: Tileset Earth 32x32 1_8
+  - first:
+      213: 4319122144583178570
+    second: Tileset Earth 32x32 1_9
+  - first:
+      213: 6836629495073704353
+    second: Tileset Earth 32x32 1_10
+  - first:
+      213: 5726107415436907094
+    second: Tileset Earth 32x32 1_11
+  - first:
+      213: -3740477186225329373
+    second: Tileset Earth 32x32 1_12
+  - first:
+      213: 8637203117831655334
+    second: Tileset Earth 32x32 1_13
+  - first:
+      213: -2988861292581875648
+    second: Tileset Earth 32x32 1_14
+  - first:
+      213: 7031429234762479345
+    second: Tileset Earth 32x32 1_15
+  - first:
+      213: 6660780555232691908
+    second: Tileset Earth 32x32 1_16
+  - first:
+      213: 6673101140347068656
+    second: Tileset Earth 32x32 1_17
+  - first:
+      213: -2031895668007612363
+    second: Tileset Earth 32x32 1_18
+  - first:
+      213: 2475885197463310447
+    second: Tileset Earth 32x32 1_19
+  - first:
+      213: 5312454780721773612
+    second: Tileset Earth 32x32 1_20
+  - first:
+      213: 1376323434452109407
+    second: Tileset Earth 32x32 1_21
+  - first:
+      213: 1623380313529450413
+    second: Tileset Earth 32x32 1_22
+  - first:
+      213: 3332632176394353237
+    second: Tileset Earth 32x32 1_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3177d86b259bde0800000000000000
+      internalID: -1316930472018242653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 100
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb763b17bebb5a7f0800000000000000
+      internalID: -601868355284801605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9973134e656eb0af0800000000000000
+      internalID: -428996078613743719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 99
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e95975d8786b4e0800000000000000
+      internalID: -1966235146171081084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 99
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2112a809380e90440800000000000000
+      internalID: 4902696525039804690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 107
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa28f8d337773e7e0800000000000000
+      internalID: -1737413694397119825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 107
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdca7c33d4cfc8a00800000000000000
+      internalID: 760259845630176475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.666, y: 0.222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57c79bfdcf2807b0800000000000000
+      internalID: -5257900003219224739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8f64c5096b94550800000000000000
+      internalID: 6145643897663453366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.333, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a495761f4ba90fb30800000000000000
+      internalID: 4319122144583178570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a983d2cd4690ee50800000000000000
+      internalID: 6836629495073704353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 63
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652d8da2b58377f40800000000000000
+      internalID: 5726107415436907094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 71
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b269821d7271cc0800000000000000
+      internalID: -3740477186225329373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 71
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af804b49728dd770800000000000000
+      internalID: 8637203117831655334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0401eb47d7e6586d0800000000000000
+      internalID: -2988861292581875648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6705982a7a49160800000000000000
+      internalID: 7031429234762479345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 31
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c64979ef98df6c50800000000000000
+      internalID: 6660780555232691908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 31
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f024aca12e9b9c50800000000000000
+      internalID: 6673101140347068656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 31
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53050c7c7a14dc3e0800000000000000
+      internalID: -2031895668007612363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 39
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60d273287c1c5220800000000000000
+      internalID: 2475885197463310447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 39
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c3f3af971a9b940800000000000000
+      internalID: 5312454780721773612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58409e1fdea91310800000000000000
+      internalID: 1376323434452109407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daff84b4bc7678610800000000000000
+      internalID: 1623380313529450413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset Earth 32x32 1_23
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 11
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ab501be43ef3e20800000000000000
+      internalID: 3332632176394353237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2f67781ea1a78594381ccef4c1bb37a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tileset Earth 32x32 1_0: -1316930472018242653
+      Tileset Earth 32x32 1_1: -601868355284801605
+      Tileset Earth 32x32 1_10: 6836629495073704353
+      Tileset Earth 32x32 1_11: 5726107415436907094
+      Tileset Earth 32x32 1_12: -3740477186225329373
+      Tileset Earth 32x32 1_13: 8637203117831655334
+      Tileset Earth 32x32 1_14: -2988861292581875648
+      Tileset Earth 32x32 1_15: 7031429234762479345
+      Tileset Earth 32x32 1_16: 6660780555232691908
+      Tileset Earth 32x32 1_17: 6673101140347068656
+      Tileset Earth 32x32 1_18: -2031895668007612363
+      Tileset Earth 32x32 1_19: 2475885197463310447
+      Tileset Earth 32x32 1_2: -428996078613743719
+      Tileset Earth 32x32 1_20: 5312454780721773612
+      Tileset Earth 32x32 1_21: 1376323434452109407
+      Tileset Earth 32x32 1_22: 1623380313529450413
+      Tileset Earth 32x32 1_23: 3332632176394353237
+      Tileset Earth 32x32 1_3: -1966235146171081084
+      Tileset Earth 32x32 1_4: 4902696525039804690
+      Tileset Earth 32x32 1_5: -1737413694397119825
+      Tileset Earth 32x32 1_6: 760259845630176475
+      Tileset Earth 32x32 1_7: -5257900003219224739
+      Tileset Earth 32x32 1_8: 6145643897663453366
+      Tileset Earth 32x32 1_9: 4319122144583178570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

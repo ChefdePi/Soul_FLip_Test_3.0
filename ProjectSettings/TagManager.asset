@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Wall_ColiderLayertag
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: UpTop
     uniqueID: 1905637203
+    locked: 0
+  - name: Wall_Collider
+    uniqueID: 4036397061
     locked: 0
   m_RenderingLayers:
   - Default
