@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2a6e9719394fa184cb8c0c39724c7d99
+guid: 4ac62b8c1a31f244baa8eaa4fc5282a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6081935257157781804
-    second: Angel_Static_0
+      213: -4524413710071975449
+    second: Tree_Top_Static_01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,11 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.1}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -96,27 +96,40 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Angel_Static_0
+      name: Tree_Top_Static_01_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 19
-        height: 18
+        width: 38
+        height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2940d594ef576450800000000000000
-      internalID: 6081935257157781804
+      spriteID: 7e1b04ab3bd0631c0800000000000000
+      internalID: -4524413710071975449
       vertices: []
       indices: 
       edges: []
@@ -125,8 +138,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Angel_Static_0: 6081935257157781804
+      Tree_Top_Static_01_0: -4524413710071975449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
