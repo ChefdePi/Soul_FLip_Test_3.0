@@ -3114,7 +3114,7 @@ GameObject:
   - component: {fileID: 2104007750}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3282,6 +3282,8 @@ MonoBehaviour:
   blockingLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+  Barren: {fileID: 11400000, guid: ae1b5a982cca0b34891d53890174abb0, type: 2}
+  TileMap: {fileID: 1835107254}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
