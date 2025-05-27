@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Tilemaps;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -25,6 +26,11 @@ public class PlayerScript : MonoBehaviour
     private Vector2 dir_DownLeft;
     private Vector2 currentPos;
     private BoxCollider2D boxCollider;
+
+    [SerializeField]
+    Tile Barren;
+    [SerializeField]
+    Tilemap TileMap;
 
     void Start()
     {
@@ -104,7 +110,43 @@ public class PlayerScript : MonoBehaviour
                 moveSequence.Add("down");
             }
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ResourceHarvest();
+        }
         FixedUpdate();
+    }
+
+    void ResourceHarvest()
+    {
+        List<Vector3> hitarea = new List<Vector3>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        Vector3 playerPosition = player.transform.position;
+        hitarea.Add(playerPosition + new Vector3(0f, 0.5f));   
+        hitarea.Add(playerPosition + new Vector3(1f, 0.5f));   
+        hitarea.Add(playerPosition + new Vector3(1f, 0f));   
+        hitarea.Add(playerPosition + new Vector3(1f, -0.5f));  
+        hitarea.Add(playerPosition + new Vector3(0f, -0.5f));  
+        hitarea.Add(playerPosition + new Vector3(-1f, -0.5f)); 
+        hitarea.Add(playerPosition + new Vector3(-1f, 0f));  
+        hitarea.Add(playerPosition + new Vector3(-1f, 0.5f));
+
+        foreach (var hit in hitarea)
+        {
+            Vector3Int cellPosition = TileMap.WorldToCell(hit);
+            TileBase currentTile = TileMap.GetTile(cellPosition);
+
+            if (currentTile != null && currentTile.name == "Tree_Top_Static_01") 
+            {
+                TileMap.SetTile(cellPosition, Barren);
+                Debug.Log($"Replaced tile at {cellPosition} with Barren.");
+            }
+            else
+            {
+                Debug.Log($"No tree tile at {cellPosition} to replace.");
+            }
+        }
     }
 
     void FixedUpdate()
