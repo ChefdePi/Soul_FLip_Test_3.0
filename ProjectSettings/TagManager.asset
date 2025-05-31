@@ -47,5 +47,8 @@ TagManager:
   - name: UpTop
     uniqueID: 1905637203
     locked: 0
+  - name: ResourceTilemap
+    uniqueID: 979833703
+    locked: 0
   m_RenderingLayers:
   - Default
