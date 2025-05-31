@@ -14,8 +14,8 @@ public class PlayerScript : MonoBehaviour
     public Rigidbody2D rb2D;
     public LayerMask blockingLayer;
 
+    private Vector2 worldPoint;
     private Vector2 direction;
-
     private Vector2 dir_Up;
     private Vector2 dir_Down;
     private Vector2 dir_Left;
@@ -110,7 +110,7 @@ public class PlayerScript : MonoBehaviour
                 moveSequence.Add("down");
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
         {
             ResourceHarvest();
         }
@@ -119,33 +119,16 @@ public class PlayerScript : MonoBehaviour
 
     void ResourceHarvest()
     {
-        List<Vector3> hitarea = new List<Vector3>();
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        Vector3 playerPosition = player.transform.position;
-        hitarea.Add(playerPosition + new Vector3(0f, 0.5f));   
-        hitarea.Add(playerPosition + new Vector3(1f, 0.5f));   
-        hitarea.Add(playerPosition + new Vector3(1f, 0f));   
-        hitarea.Add(playerPosition + new Vector3(1f, -0.5f));  
-        hitarea.Add(playerPosition + new Vector3(0f, -0.5f));  
-        hitarea.Add(playerPosition + new Vector3(-1f, -0.5f)); 
-        hitarea.Add(playerPosition + new Vector3(-1f, 0f));  
-        hitarea.Add(playerPosition + new Vector3(-1f, 0.5f));
+        var tpos = TileMap.WorldToCell(worldPoint);
 
-        foreach (var hit in hitarea)
+        var tile = TileMap.GetTile(tpos);
+
+        if(tile)
         {
-            Vector3Int cellPosition = TileMap.WorldToCell(hit);
-            TileBase currentTile = TileMap.GetTile(cellPosition);
-
-            if (currentTile != null && currentTile.name == "Tree_Top_Static_01") 
-            {
-                TileMap.SetTile(cellPosition, Barren);
-                Debug.Log($"Replaced tile at {cellPosition} with Barren.");
-            }
-            else
-            {
-                Debug.Log($"No tree tile at {cellPosition} to replace.");
-            }
+            Debug.Log("you clicked on a resource");
+            TileMap.SetTile(tpos, null);
         }
     }
 
@@ -164,12 +147,11 @@ public class PlayerScript : MonoBehaviour
         Vector2 start = transform.position;
         Vector2 end = start + direction;
 
-        Debug.Log("Rigidbody2D: " + rb2D);
-        Debug.Log("BoxCollider2D: " + boxCollider);
-
         boxCollider.enabled = false;
         RaycastHit2D hit = Physics2D.Linecast(start, end, blockingLayer);
-        boxCollider.enabled = false;
+        //boxCollider.enabled = false;
+        Debug.Log("Start: " + start + ", End: " + end);
+        Debug.Log("Hit: " + hit.transform);
 
         if (hit.transform == null)
         {
