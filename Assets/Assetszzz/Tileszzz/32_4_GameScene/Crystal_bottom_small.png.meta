@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d8a5ec06c3cccbf4795a2de2dd731368
+guid: e84f55de82e928541b94270fcee3e591
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8864865791768012002
-    second: Stone_Short_Top_0
+      213: 3644011998739738896
+    second: Crystal_bottom_small_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -50,7 +50,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
-  spritePivot: {x: 0.5, y: 0.25}
+  spritePivot: {x: 0.5, y: 0.15}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone_Short_Top_0
+      name: Crystal_bottom_small_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
-        height: 14
+        width: 6
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e428d33874560b70800000000000000
-      internalID: 8864865791768012002
+      spriteID: 011b4262b91229230800000000000000
+      internalID: 3644011998739738896
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stone_Short_Top_0: 8864865791768012002
+      Crystal_bottom_small_0: 3644011998739738896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
