@@ -4471,7 +4471,7 @@ MonoBehaviour:
   bottomAltarObject: {fileID: 1470926042}
   treeTile: {fileID: 11400000, guid: 4e9661f1655d34843a2d4a24500e528b, type: 2}
   numberOfTrees: 5
-  rockTile: {fileID: 0}
+  rockTile: {fileID: 11400000, guid: 4ad048d5c8502f14bb5f396124ed17e7, type: 2}
   numberOfRocks: 5
   crystalLargeTile: {fileID: 11400000, guid: d82e48e1ed60284489c4c9f740787812, type: 2}
   crystalMediumTile: {fileID: 11400000, guid: 05cbca71b8ebee14c87ed28c64ef2125, type: 2}
