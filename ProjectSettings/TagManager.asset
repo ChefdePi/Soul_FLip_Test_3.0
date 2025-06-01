@@ -44,8 +44,14 @@ TagManager:
   - name: DownBelow
     uniqueID: 4193865229
     locked: 0
+  - name: ResourceDownBelowTilemap
+    uniqueID: 2985732279
+    locked: 0
   - name: UpTop
     uniqueID: 1905637203
+    locked: 0
+  - name: ResourceUpTopTilemap
+    uniqueID: 47838489
     locked: 0
   - name: ResourceTilemap
     uniqueID: 979833703
