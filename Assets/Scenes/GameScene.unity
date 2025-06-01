@@ -298,7 +298,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2664847}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9927a676198a1e4d82f45e3e54514ca, type: 3}
   m_Name: 
@@ -1005,10 +1005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbe904b623ca3541973a19c1bd8ba10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  altarLight: {fileID: 807737757}
-  glowSpeed: 0.5
-  minRadius: 3
-  maxRadius: 7.7
 --- !u!1 &841450752
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,10 +2860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbe904b623ca3541973a19c1bd8ba10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  altarLight: {fileID: 1096074885}
-  glowSpeed: 0.5
-  minRadius: 1.6
-  maxRadius: 2.4
 --- !u!114 &1096074885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3035,10 +3027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbe904b623ca3541973a19c1bd8ba10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  altarLight: {fileID: 1128826351}
-  glowSpeed: 0.4
-  minRadius: 2
-  maxRadius: 4
 --- !u!114 &1128826351
 MonoBehaviour:
   m_ObjectHideFlags: 0
