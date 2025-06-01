@@ -25,15 +25,15 @@ public class CycleScript : MonoBehaviour
         {
             if (timeRemaining > 0)
             {
-                    DisplayTime(timeRemaining);
-                    timeRemaining -= Time.deltaTime;
+                DisplayTime(timeRemaining);
+                timeRemaining -= Time.deltaTime;
             }
             else
             {
-                    Debug.Log("Time has ran out");
-                    timeRemaining = 0;
-                    timerIsRunning = false;
-                    CycleChange();
+                Debug.Log("Time has ran out");
+                timeRemaining = 0;
+                timerIsRunning = false;
+                CycleChange();
             }
         }
     }
