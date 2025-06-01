@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine.Tilemaps;
 using UnityEngine;
 
@@ -31,6 +32,8 @@ public class PlayerScript : MonoBehaviour
     Tile Barren;
     [SerializeField]
     Tilemap TileMap;
+    [SerializeField]
+    GameObject ResourceArea;
 
     void Start()
     {
@@ -121,15 +124,17 @@ public class PlayerScript : MonoBehaviour
     {
         worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        var tpos = TileMap.WorldToCell(worldPoint);
-
-        var tile = TileMap.GetTile(tpos);
-
-        if(tile)
-        {
-            Debug.Log("you clicked on a resource");
-            TileMap.SetTile(tpos, null);
-        }
+        
+        
+            var tpos = TileMap.WorldToCell(worldPoint);
+            var tile = TileMap.GetTile(tpos);
+            if (tile)
+            {
+                Debug.Log("you clicked on a resource");
+                TileMap.SetTile(tpos, null);  
+            }
+        
+        
     }
 
     void FixedUpdate()
