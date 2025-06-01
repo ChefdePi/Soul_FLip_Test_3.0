@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HM_slider_button_0: -6315894642585064727
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
