@@ -56,6 +56,9 @@ TagManager:
   - name: ResourceTilemap
     uniqueID: 979833703
     locked: 0
+  - name: Player
+    uniqueID: 1504687857
+    locked: 0
   - name: UI
     uniqueID: 3568943273
     locked: 0
